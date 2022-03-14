@@ -1,0 +1,59 @@
+
+.toolbar {
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: darkgrey;
+}
+
+.statutbar {
+    -fx-border-style: solid;
+    -fx-border-width: 1px 0px 0px 0px;
+    -fx-border-color: darkgrey;
+}
+
+.drawingPane {
+    -fx-background-color: white;
+}
+
+.rectangle {
+    -fx-fill: greenyellow;
+    -fx-stroke: green;
+    -fx-stroke-width: 3;
+}
+
+.ellipse {
+    -fx-fill: yellow;
+    -fx-stroke: orange;
+    -fx-stroke-width: 3;
+}
+
+.triangle {
+    -fx-fill: cyan;
+    -fx-stroke: blue;
+    -fx-stroke-width: 3;
+}
+
+.clone{
+    -fx-fill: #BBB6B5;
+    -fx-stroke: grey;
+    -fx-stroke-width: 3;
+}
+
+.group{
+    -fx-fill: lightsalmon;
+    -fx-stroke: red;
+    -fx-stroke-width: 3;
+}
+
+.edge{
+    -fx-stroke: brown;
+    -fx-stroke-width: 3;
+}
+
+.decorator-text{
+    -fx-font-size: 15px;
+}
+
+.selected{
+    -fx-effect:dropshadow(gaussian,cornflowerblue,8,0.7,0,0);
+}
